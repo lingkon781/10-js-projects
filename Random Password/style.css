@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+    font-weight: 500;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.password_box{
+    min-height: 100px;
+    width:600px;
+    display: flex;
+    border: 2px solid black;
+    justify-content: center;
+    align-items: center;
+    padding:30px;
+    box-shadow: 0 0 10px 5px gray;
+}
+
+.password_box input{
+    padding:10px 20px;
+    font-size: 18px;
+    color: brown;
+    width: 100%;
+    box-shadow: 0 0 3px 2px gray;
+
+}
+
+.password_box #copy{
+    padding:10px;
+    margin-left: 5px;
+    box-shadow: 0 0 3px 2px gray;
+    cursor: pointer;
+    font-size:18px;
+    font-weight:500;
+
+}
+
+.container #pass{
+    padding:10px 30px;
+    color:#eee;
+    margin-top: 30px;
+    background-color: seagreen;
+    letter-spacing:1px;
+    cursor: pointer;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .5s;
+}
+.container #pass:hover{
+    background: rgb(28, 86, 53);
+    
+}
+.container #pass i{
+    font-size: 21px;
+    margin-left: 4px;
+    transition: .5s;
+
+}
+
+.container #pass:hover i{
+    transform: translate(7px,0px);
+   
+}

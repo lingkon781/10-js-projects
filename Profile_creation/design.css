@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container2{
+    min-height: 100vh;
+    width: 100%;
+    padding: 20px;
+    background-color:rgb(1, 1, 39);
+    color: #fefefe;
+  
+   
+   
+}
+.profile_box{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 5fr));
+    padding:30px;
+    margin: 20px auto;
+    gap: 30px;
+    
+   
+}
+.profile{
+    min-height:100px;
+    width: 300px;
+    border:2px solid rgb(255, 255, 255);
+    padding:20px;
+    margin-bottom: 30px;
+    text-align: left;
+    margin-left:30px;
+    text-align: center;
+    line-height: 1.5;
+    border-radius: 10px;
+    
+}
+
+.profile img{
+    width:100%;
+    border-radius:5%;
+    border:1px solid rgb(255, 255, 255);
+    box-shadow: 0 0 5px 2px beige; 
+    margin: 0 auto;
+    display: block;
+    margin-bottom:15px;
+}
+
+.profile .btn{
+  padding:10px 20px;
+  width: 100%;
+  background: seagreen;
+  border: none;
+  font-size: 20px;
+  color: #fff;
+  cursor: pointer;
+  margin-bottom:15px;
+  transition:.3s;
+}
+
+.profile .btn:hover{
+    background-color: brown;
+}

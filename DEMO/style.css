@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=DM+Serif+Display:ital@0;1&family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,500;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Salsa&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+
+body {
+    background-color: #2980b9;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+
+}
+
+.questionBox {
+   
+    min-width: 600px;
+    background: #000;
+    border-radius: 7px;
+    box-shadow: inset 0 0 3px 2px rgba(255, 255, 255, 0.8);
+    padding: 25px;
+    color: aliceblue;
+
+}
+
+.questionBox label {
+    display: block;
+
+}
+
+.questionBox h2 {
+    text-align: left;
+    font-size: 34px;
+    text-shadow: 1px 1px 2px red;
+}
+
+.btn {
+    background-color: #fff;
+    color: #222;
+    font-weight: 500;
+    width: 100%;
+    border: 1px solid #222;
+    padding: 8px;
+    margin: 10px 0;
+    border-radius: 5px;
+    transition: .1s;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.btn:hover {
+    background-color: #1f7cb9;
+    ;
+    color: #fff;
+}
+
+.next_btn {
+
+    color: #222;
+    font-weight: 500;
+    background-color: #2980b9;
+    border: 1px solid #222;
+    margin: 10px 0;
+    border-radius: 5px;
+    transition: .1s;
+    cursor: pointer;
+    z-index: 100;
+    height: 50px;
+    width: 200px;
+    margin-right: 20px;
+
+
+}
+
+.score {
+    font-size: 30px;
+    color: green;
+    display: inline;
+}
+
+
+.correct{
+    background:#9aeabc;
+}
+.incorrect{
+    background: red;
+}
